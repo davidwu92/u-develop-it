@@ -1,0 +1,15 @@
+Terminal Command:
+sqlite3 db/election.db
+...will create a database called election.db, in the "db" folder of your project.
+
+.help
+...list of commands.
+
+.database
+...provides a direct path name to the database.
+
+.quit
+...quits SQLite; resumes terminal session.
+
+DATABASE: election.db. contains Tables.
+TABLE: candidates (id, first_name, last_name, industry_connected)
